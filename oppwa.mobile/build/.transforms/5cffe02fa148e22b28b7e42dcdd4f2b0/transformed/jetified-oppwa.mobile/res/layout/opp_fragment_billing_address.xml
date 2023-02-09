@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/opp_layout_actionbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:paddingStart="@dimen/checkout_payment_data_padding"
+            android:paddingEnd="@dimen/checkout_payment_data_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- country -->
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/country_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:spinnerMode="dropdown" />
+
+            <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+                android:id="@+id/country_spinner_helper_text_view"
+                style="?attr/checkoutHelperTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/checkout_billing_address_text_view_margin_bottom"
+                android:text="@string/checkout_billing_address_country_required_error"
+                android:visibility="invisible" />
+
+            <!-- state -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/state_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/state_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:spinnerMode="dropdown"
+                android:visibility="visible" />
+
+            <com.oppwa.mobile.connect.checkout.dialog.view.CheckoutTextView
+                android:id="@+id/state_spinner_helper_text_view"
+                style="?attr/checkoutHelperTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/checkout_billing_address_state_required_error"
+                android:visibility="invisible" />
+
+            <!-- city -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/city_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- postal code -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/post_code_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- street1 -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/street1_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- street2 -->
+            <com.oppwa.mobile.connect.checkout.dialog.InputLayout
+                android:id="@+id/street2_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

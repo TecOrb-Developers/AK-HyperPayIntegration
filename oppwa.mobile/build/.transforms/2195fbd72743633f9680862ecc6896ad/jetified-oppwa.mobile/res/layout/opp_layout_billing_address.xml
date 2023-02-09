@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/billing_address_header"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/checkout_billing_address_title"
+        android:layout_marginBottom="15dp"
+        style="?attr/checkoutTextViewStyle"
+        android:textSize="@dimen/checkout_input_layout_text_size"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/billing_address_header"
+        android:background="?attr/paymentMethodListItemSelector">
+
+        <TextView
+            android:id="@+id/billing_address_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/list_disclosure_image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="?attr/listDisclosureDrawable"
+            android:contentDescription="@string/content_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="?attr/listDisclosureTintColor" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

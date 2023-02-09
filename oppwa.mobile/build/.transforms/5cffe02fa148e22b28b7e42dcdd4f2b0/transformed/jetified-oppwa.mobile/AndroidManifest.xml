@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oppwa.mobile.connect" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application>
+
+        <!-- Enables the Google Pay API, Deprecated, should be declared on app level -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <!-- mobile.connect.checkout activity -->
+
+        <activity
+            android:name="com.oppwa.mobile.connect.checkout.dialog.CheckoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Checkout.Light"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.oppwa.mobile.connect.provider.AsyncPaymentActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="com.oppwa.mobile.connect.provider.OppwaInitProvider"
+            android:authorities="${applicationId}.oppwa.init.provider"
+            android:exported="false" />
+    </application>
+
+</manifest>

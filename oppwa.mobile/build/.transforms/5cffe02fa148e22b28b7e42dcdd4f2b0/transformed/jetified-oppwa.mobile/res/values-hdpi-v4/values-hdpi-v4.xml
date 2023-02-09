@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkout_button_small_text_size">18sp</dimen>
+    <dimen name="checkout_button_text_size">24sp</dimen>
+    <dimen name="checkout_error_text_appearance_text_size">14sp</dimen>
+    <dimen name="checkout_input_layout_helper_text_size">12sp</dimen>
+    <dimen name="checkout_input_layout_hint_text_size">12sp</dimen>
+    <dimen name="checkout_input_layout_text_size">14sp</dimen>
+    <dimen name="checkout_mpos_hint_text_appearance_text_size">16sp</dimen>
+    <dimen name="checkout_text_appearance_button_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_agreement_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_fingerprint_status_text_size">14sp</dimen>
+    <dimen name="checkout_text_view_fingerprint_title_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_klarna_title_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_order_total_text_size">22sp</dimen>
+    <dimen name="checkout_text_view_payment_amount_header_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_payment_amount_text_size">24sp</dimen>
+    <dimen name="checkout_text_view_payment_progress_text_size">18sp</dimen>
+    <dimen name="checkout_text_view_secondary_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_section_title_text_size">16sp</dimen>
+    <dimen name="checkout_text_view_text_size">20sp</dimen>
+    <dimen name="checkout_text_view_token_text_size">14sp</dimen>
+    <dimen name="header_text_size">18sp</dimen>
+</resources>

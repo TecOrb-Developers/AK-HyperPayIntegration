@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkout_auth_confirm_payment">Za potrditev plačila</string>
+    <string name="checkout_choose_card_type">Izberi vrsto kartice</string>
+    <string name="checkout_error_account_expiration_date_invalid">Datum poteka veljavnosti ni veljaven, uporabi obliko zapisa MM/LL ali MM/LLLL</string>
+    <string name="checkout_error_account_expired">Račun je potekel</string>
+    <string name="checkout_error_account_holder_invalid">Ime imetnika računa ni veljavno</string>
+    <string name="checkout_error_account_number_invalid">Neveljavna številka računa</string>
+    <string name="checkout_error_bic_bank_code_invalid">Številka BIC ali bančna koda ni veljavna</string>
+    <string name="checkout_error_card_holder_invalid">Ime imetnika kartice ni veljavno</string>
+    <string name="checkout_error_card_number_invalid">Navedena številka kartice ni veljavna</string>
+    <string name="checkout_error_email_invalid">Neveljaven e-poštni naslov</string>
+    <string name="checkout_error_expiration_date">Veljavnost kartice je potekla</string>
+    <string name="checkout_error_expiration_date_invalid">Datum poteka veljavnosti ni veljaven, uporabi obliko zapisa MM/LL ali MM/LLLL</string>
+    <string name="checkout_error_iban_account_number_invalid">Številka IBAN ali številka računa ni veljavna</string>
+    <string name="checkout_error_iban_invalid">Številka IBAN ni veljavna</string>
+    <string name="checkout_error_mobile_phone_number_invalid">Neveljavna številka mobilnega telefona</string>
+    <string name="checkout_error_national_identifier_invalid">Neveljavna nacionalna identifikacijska oznaka</string>
+    <string name="checkout_error_security_code_invalid">Varnostna koda mora vsebovati zadnje 3 številke, navedene na zadnji strani kartice</string>
+    <string name="checkout_error_security_code_invalid_amex">Varnostna koda mora vsebovati 4-mestno številko, navedeno na sprednji strani kartice</string>
+    <string name="checkout_fingerprint_cancel">Prekliči</string>
+    <string name="checkout_fingerprint_enter_pin">Vnesi kodo PIN</string>
+    <string name="checkout_fingerprint_not_recognized">Prstni odtis ni bil prepoznan, poskusi znova</string>
+    <string name="checkout_fingerprint_success">Prstni odtis je bil prepoznan</string>
+    <string name="checkout_fingerprint_touch_sensor">Senzor na dotik</string>
+    <string name="checkout_helper_account_number">Številka računa</string>
+    <string name="checkout_helper_account_verification">Preverjanje pristnosti računa</string>
+    <string name="checkout_helper_bic_bank_code">BIC ali bančna koda</string>
+    <string name="checkout_helper_card_holder">Ime, kot je navedeno na kartici</string>
+    <string name="checkout_helper_card_number">Dolga številka na sprednji strani kartice</string>
+    <string name="checkout_helper_country_code" translatable="false">+xxx</string>
+    <string name="checkout_helper_expiration_date">Uporabi obliko zapisa MM/LL ali MM/LLLL</string>
+    <string name="checkout_helper_iban">Številka IBAN (International Bank Account Number), povezana z bančnim računom</string>
+    <string name="checkout_helper_iban_account_number">IBAN ali številka računa</string>
+    <string name="checkout_helper_national_identifier">Nacionalna identifikacijska oznaka</string>
+    <string name="checkout_helper_phone_number" translatable="false">xxxxxxxxx</string>
+    <string name="checkout_helper_security_code">Zadnje 3 številke na zadnji strani kartice</string>
+    <string name="checkout_helper_security_code_amex">4-mestna koda na sprednji strani kartice</string>
+    <string name="checkout_layout_hint_account_number">Številka računa</string>
+    <string name="checkout_layout_hint_account_verification">Preverjanje pristnosti računa</string>
+    <string name="checkout_layout_hint_card_cvv">Varnostna koda ali CVV</string>
+    <string name="checkout_layout_hint_card_expiration_date">Datum poteka veljavnosti</string>
+    <string name="checkout_layout_hint_card_holder">Ime imetnika kartice</string>
+    <string name="checkout_layout_hint_card_number">Številka kreditne kartice</string>
+    <string name="checkout_layout_hint_country_code">Koda države</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_account_holder">Imetnik računa</string>
+    <string name="checkout_layout_hint_direct_debit_sepa_iban">IBAN</string>
+    <string name="checkout_layout_hint_email">E-poštni naslov</string>
+    <string name="checkout_layout_hint_national_identifier">Nacionalna identifikacijska oznaka</string>
+    <string name="checkout_layout_hint_phone_number">Številka mobilnega telefona</string>
+    <string name="checkout_layout_text_accept_mbway_pin">Potrdi transakcijo s svojo kodo PIN za MB WAY.</string>
+    <string name="checkout_layout_text_cards_payment_methods">Kreditne/debetne kartice</string>
+    <string name="checkout_layout_text_finnish">finščina</string>
+    <string formatted="false" name="checkout_layout_text_header_amount">%.2f %s</string>
+    <string name="checkout_layout_text_order_summary">Povzetek naročila</string>
+    <string name="checkout_layout_text_order_total">SKUPAJ</string>
+    <string name="checkout_layout_text_other_payment_methods">Drugi načini plačila</string>
+    <string name="checkout_layout_text_pay">PLAČAJ ZDAJ</string>
+    <string name="checkout_layout_text_pay_amount">Plačaj %s</string>
+    <string name="checkout_layout_text_pay_with">Plačaj s/z</string>
+    <string name="checkout_layout_text_payment_info">Podatki o plačilu</string>
+    <string name="checkout_layout_text_push_notification_sent">V tvojo napravo bo poslano potisno obvestilo.</string>
+    <string name="checkout_layout_text_qr_code">QR-koda</string>
+    <string name="checkout_layout_text_register">Registriraj se</string>
+    <string name="checkout_layout_text_select_bank">Izberi banko</string>
+    <string name="checkout_layout_text_select_country">Izberi državo</string>
+    <string name="checkout_layout_text_select_payment_method">Načini plačila</string>
+    <string name="checkout_layout_text_ship_to">Naslov za dostavo</string>
+    <string name="checkout_layout_text_stcpay_method_select">Izberi želeni način plačila:</string>
+    <string name="checkout_layout_text_stored_payment_methods">Shranjeni načini plačila</string>
+    <string name="checkout_layout_text_swedish">švedščina</string>
+    <string name="checkout_layout_text_terms_and_conditions">Pogoji in določila</string>
+    <string name="checkout_layout_text_terms_and_conditions_agreement">Prebral/-a sem Pogoje in določila ter se strinjam z njimi</string>
+    <string name="checkout_layout_text_total_amount">Skupni znesek</string>
+    <string name="checkout_number_of_installments">Število obrokov</string>
+    <string name="checkout_order_review">Pregled naročila</string>
+    <string name="checkout_payment_details">Podrobnosti plačila</string>
+    <string name="checkout_processing">Obdelovanje</string>
+    <string name="checkout_tokenization_checkbox">Shrani podrobnosti plačila za prihodnjo uporabo</string>
+    <string name="checkout_transaction_run">Prosimo, počakaj</string>
+    <string name="directdebit_sepa" translatable="false">Direktna obremenitev SEPA</string>
+    <string name="sofortueberweisung" translatable="false">SOFORT Banking</string>
+</resources>

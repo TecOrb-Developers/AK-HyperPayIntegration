@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HyperPay</string>
+    <string name="checkout_ui_callback_scheme">checkoutui</string>
+    <string name="payment_button_callback_scheme">paymentbutton</string>
+    <string name="custom_ui_callback_scheme">customui</string>
+
+    <string name="checkout_ui_title">Ready-to-Use UI</string>
+    <string name="payment_button_title">Payment Button</string>
+    <string name="custom_ui_title">Hyper pay payment SDK</string>
+    <string name="checkout_immediately_with">Checkout immediately with</string>
+    <string name="sdk_version_number">mobile sdk v%s</string>
+
+    <string name="visa">VISA</string>
+
+    <string name="card_holder_hint">Card Holder</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="card_expiry_month_hint">MM</string>
+    <string name="card_expiry_year_hint">YY</string>
+    <string name="card_cvv_hint">CVV</string>
+
+    <string name="date_delimiter">/</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_proceed_to_checkout">PROCEED TO CHECKOUT</string>
+    <string name="button_pay_now">PAY NOW</string>
+
+    <string name="message_successful_payment">The payment was successful</string>
+    <string name="message_unsuccessful_payment">"The payment was unsuccessful"</string>
+    <string name="message_payment_confirmation">Payment of %1$s %2$s will be executed</string>
+
+    <string name="error_message">An error occurred</string>
+    <string name="error_empty_fields">The fields must not be empty</string>
+    <string name="invalid_expiry_month">Invalid expiry month</string>
+</resources>

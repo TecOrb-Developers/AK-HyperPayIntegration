@@ -1,0 +1,9 @@
+# keep third-party classes that are used in LibraryHelper, otherwise they may not be found
+-keep class com.alipay.sdk.app.PayTask
+-keep class io.card.payment.CardIOActivity
+-keep class com.google.android.gms.security.ProviderInstaller
+-keep class com.google.android.gms.wallet.PaymentsClient
+-keep class com.iovation.mobile.android.FraudForceManager
+-keep class com.klarna.mobile.sdk.api.payments.KlarnaPaymentView
+-keep class com.oppwa.mobile.connect.threeds.OppThreeDSService
+-keep class com.nsoftware.ipworks3ds.sdk.ThreeDS2Service

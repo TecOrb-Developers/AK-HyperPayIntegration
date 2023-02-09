@@ -1,0 +1,4 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('oppwa.mobile.aar'))
+//dependencies.add("default", files('ipworks3ds_sdk.aar')) // for developments
+dependencies.add("default", files('ipworks3ds_sdk_deploy.aar')) // for production
